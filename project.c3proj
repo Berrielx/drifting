@@ -1,0 +1,771 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 48703,
+	"name": "DRIFTING",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "AJAX",
+			"name": "AJAX",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Arr",
+			"name": "Matriz",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Áudio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Function",
+			"name": "[Function]",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Json",
+			"name": "JSON",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Teclado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "LocalStorage",
+			"name": "Armazenamento local",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "NinePatch",
+			"name": "9-secções",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Partículas",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Spritefont2",
+			"name": "Fonte de sprites",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TextBox",
+			"name": "Entrada de texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Plano de Fundo em Blocos",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Toque",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "video",
+			"name": "Vídeo",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Anchor",
+			"name": "Âncora",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Projétil",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direções",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Follow",
+			"name": "Seguir",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "LOS",
+			"name": "Campo de visão",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Mover Para",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Fixar",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Senóide",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Timer",
+			"name": "Cronômetro",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Restrito ao layout",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "destroy",
+			"name": "Destruir externamente",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Centrar em",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Sólido",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
+	"uniqueId": "z8pmznopx92",
+	"objectTypes": {
+		"items": [
+			"Áudio",
+			"Sprite",
+			"FonteDeSprites",
+			"Texto",
+			"Sprite4",
+			"Vídeo",
+			"ArmazenamentoLocal",
+			"arr_inventory",
+			"JSON",
+			"spr_groundItem",
+			"txt_slotAmt",
+			"txt_info",
+			"Function",
+			"inv_itensInfo",
+			"marcolidir",
+			"voltarpromar",
+			"Sprite6",
+			"caixadialogo1",
+			"Texto2",
+			"dialogo",
+			"gatilhoDeVisto",
+			"bordadialogo",
+			"voltarBunker",
+			"Poseidon",
+			"voltarAtlantida",
+			"voltarCorredorAtlantida",
+			"barreiraMeio",
+			"barreiraTrono",
+			"Partículas",
+			"barreira",
+			"Partículas2",
+			"inv_posicoes",
+			"inv_itens",
+			"inv_quantidade",
+			"inv_descrição",
+			"Sprite8",
+			"Sprite9",
+			"Sprite10",
+			"Sprite11",
+			"Sprite12",
+			"Sprite13",
+			"Sprite14",
+			"Sprite15",
+			"Sprite16",
+			"Sprite17",
+			"Sprite20",
+			"Sprite21",
+			"Sprite22",
+			"Sprite23",
+			"Partículas4",
+			"Partículas3",
+			"ciaxadialogo2",
+			"caixadialogo2",
+			"dialogo2",
+			"Sprite24",
+			"Texto3",
+			"Sprite25",
+			"inventariotexto2",
+			"Sprite26",
+			"VoltarBotao",
+			"volumeMais",
+			"volumeMenos",
+			"Save",
+			"Sprite27",
+			"instrucao",
+			"instrucaotxt",
+			"Sprite28",
+			"INSTRUCAOTXT2",
+			"INSTRU3",
+			"recuperarbarco",
+			"RECUPERAR2",
+			"RECU3",
+			"Sprite29",
+			"instru4",
+			"recuperacao",
+			"Sprite30"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"banana",
+					"barril",
+					"folha",
+					"madeira",
+					"moeda",
+					"pedra",
+					"coco",
+					"peixe",
+					"cobre",
+					"ferro",
+					"sucata"
+				],
+				"subfolders": [],
+				"name": "Objetos"
+			},
+			{
+				"items": [
+					"btn_Jogar",
+					"btn_reiniciar",
+					"btn_vltMenu",
+					"btn_selecionado"
+				],
+				"subfolders": [],
+				"name": "Botões"
+			},
+			{
+				"items": [
+					"ilha",
+					"fundo_mar_01",
+					"gameOver",
+					"inicio",
+					"fundo_mar_02",
+					"PlanoDeFundoEmBlocos",
+					"PlanoDeFundoEmBlocos2",
+					"tpSalaoPrincipal",
+					"atlantida"
+				],
+				"subfolders": [],
+				"name": "Fundos"
+			},
+			{
+				"items": [
+					"player",
+					"player2",
+					"vendedor",
+					"ferreiro",
+					"mendigo",
+					"Sprite7",
+					"Sprite18",
+					"Sprite19"
+				],
+				"subfolders": [],
+				"name": "Personagens"
+			},
+			{
+				"items": [
+					"tuba",
+					"Crack_en",
+					"Sprite5"
+				],
+				"subfolders": [],
+				"name": "Inimigo"
+			},
+			{
+				"items": [
+					"jangada",
+					"jangada2",
+					"Porto"
+				],
+				"subfolders": [],
+				"name": "Locomoção"
+			},
+			{
+				"items": [
+					"barravida",
+					"InventarioTexto",
+					"scoreCoins",
+					"descricoes",
+					"tamanhos",
+					"AJAX",
+					"fundo",
+					"inv_item",
+					"inv_item2",
+					"palacio_tp",
+					"spr_invSlot",
+					"Sprite2",
+					"Sprite3"
+				],
+				"subfolders": [],
+				"name": "Outros"
+			},
+			{
+				"items": [
+					"Mouse",
+					"Teclado",
+					"Toque",
+					"btn_config"
+				],
+				"subfolders": [],
+				"name": "Sistema"
+			},
+			{
+				"items": [
+					"radar",
+					"bunker",
+					"farol",
+					"ferraria",
+					"oficina",
+					"farolnovo",
+					"ferrarianova",
+					"oficinanova",
+					"radarnovo",
+					"bunkernovo"
+				],
+				"subfolders": [],
+				"name": "Construções"
+			},
+			{
+				"items": [
+					"textobunker",
+					"textofarol",
+					"textoferraria",
+					"textooficina",
+					"textoradar",
+					"regrasdofarol",
+					"regrasdaferraria",
+					"regrasdaoficina",
+					"regrasdoradar",
+					"regrasdobunker",
+					"regrasdofarol2",
+					"regrasdofarol3",
+					"regrasdofarol4",
+					"regrasdofarol5",
+					"textofarol2",
+					"textofarol3",
+					"textofarol4",
+					"textofarol5"
+				],
+				"subfolders": [],
+				"name": "textos"
+			}
+		]
+	},
+	"functionsName": "Funções",
+	"autosaveData": null,
+	"containers": [
+		{
+			"members": [
+				"inv_itens",
+				"inv_quantidade"
+			]
+		}
+	],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"mar_01",
+			"Menu_Inicial",
+			"GameOver",
+			"ilhaInicial",
+			"ILHA",
+			"Layout 1",
+			"mar_2",
+			"mar_01_volta",
+			"atlantida",
+			"corredorAtlantida",
+			"salaPrincipal",
+			"intro",
+			"inventario",
+			"SEPARAÇÃO",
+			"inventario2",
+			"configuracoes",
+			"Layout 2",
+			"terminou-jogo"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"fMar_01",
+			"fGame_over",
+			"fMenu_ini",
+			"Folha eventos ilha",
+			"fAtlantida",
+			"fMar_2",
+			"fCorredorAtlantida",
+			"fIntro",
+			"f_inventario",
+			"dialogo",
+			"fSalaPrincipal",
+			"f_inventario2",
+			"fGeral",
+			"f_configuracoes",
+			"Folha de eventos 1",
+			"Folha de eventos 2",
+			"Folha de eventos 3"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "click.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 119940743785519,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [
+				{
+					"name": "celtic-music-ancient-storm.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 749775522388313,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "elaxing-fantasy-music-ohori-village.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 202830240680303,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "avatar-legend-of-korra-ending-theme.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 788446370414544,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ytmp3free.cc_experience-the-real-dolby-atmos-sound-sea-waves-youtubemp3free.org.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 484745171900149,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"video": {
+			"items": [
+				{
+					"name": "Intro1.mp4",
+					"type": "video/mp4",
+					"sid": 501501892125600,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "introdução.mp4",
+					"type": "video/mp4",
+					"sid": 389618612335809,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 539854442866406,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 594754569350997,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 664360896608976,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 949542724419030,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 177256686801211,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 906041142623254,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 271451450521899,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [
+				{
+					"name": "tamanhos.json",
+					"type": "application/json",
+					"sid": 665165468907613,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "descricoes.json",
+					"type": "application/json",
+					"sid": 338263807149250,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "inv_posicoes.json",
+					"type": "application/json",
+					"sid": 614854173739700,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "inv_itensInfo.json",
+					"type": "application/json",
+					"sid": 130675736272358,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Save.json",
+					"type": "application/json",
+					"sid": 134756489481255,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Linha do tempo 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"flowcharts": {
+		"items": [
+			"Fluxograma 1"
+		],
+		"subfolders": []
+	},
+	"models3d": {
+		"items": [],
+		"subfolders": []
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"autoIncrementVersion": false,
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"zAxisScale": "regular",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": true,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"multitexturing": "auto",
+		"gpuPreference": "high-performance",
+		"framerateMode": "vsync",
+		"fixedFramerate": 30,
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"uidAllocationMode": "increment",
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"exportFileStructure": "folders",
+		"scriptsType": "module"
+	},
+	"viewportWidth": 854,
+	"viewportHeight": 480,
+	"firstLayout": "Menu_Inicial"
+}
